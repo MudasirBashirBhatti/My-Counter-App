@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="parent">
+        <!-- left div  -->
+        <div class="remain">
+            <div>Total counts were</div>
+            <span class="total" value="100"></span>
+        </div>
+
+        <!-- center div  -->
+        <div class="center_div">
+            <div class="heading">Counter App</div>
+            <div class="input_div">
+                <input type="text" placeholder="Enter Your Total Counts e.g.100">
+                <button class="btn" id="getNumber">Click</button>
+            </div>
+            <div class="mobile">
+                <div class="mobileView">Total were <br> <span class="total " value = '100'></span></div>
+                <div class="number">0</div>
+                <div class="mobileView">Remaining <br> <span class="remaining " value = '100'></span></div>
+
+            </div>
+            <div class="allBtns">
+                <button class="btn" id="increase">Increase</button>
+                <button class="btn" id="reset">Reset</button>
+                <button class="btn" id="decrease">Decrease</button>
+            </div>
+        </div>
+
+        <!-- right div  -->
+        <div class="remain">
+            <div>Remaining Counts</div>
+            <span class="remaining"></span>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
